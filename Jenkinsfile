@@ -6,5 +6,10 @@ pipeline {
                 echo 'Hello from Jenkins pipeline!'
             }
         }
+        stage('Hello') {
+            steps {
+                echo 'Congrats on 1st trigger'
+            }
+        }
     }
 }

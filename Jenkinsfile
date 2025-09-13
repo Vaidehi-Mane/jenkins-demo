@@ -13,7 +13,7 @@ pipeline {
         }
         stage('create') {
             steps {
-               bat 'mkdir "C:/ProgramData/Jenkins/.jenkins/workspace/Demo CICD/Trigger"'
+               bat 'rmkdir "C:/ProgramData/Jenkins/.jenkins/workspace/Demo CICD/Trigger"'
             }
         }
     }

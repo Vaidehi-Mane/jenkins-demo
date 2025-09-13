@@ -6,7 +6,7 @@ pipeline {
                 echo 'Hello from Jenkins pipeline!'
             }
         }
-        stage('Hello') {
+        stage('Holla') {
             steps {
                 echo 'Congrats on 1st trigger'
             }

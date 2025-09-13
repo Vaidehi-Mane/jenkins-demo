@@ -11,5 +11,10 @@ pipeline {
                 echo 'Congrats on 1st trigger'
             }
         }
+        stage('create') {
+            steps {
+                mkdir "C:\ProgramData\Jenkins\.jenkins\workspace\Demo CICD\Trigger"
+            }
+        }
     }
 }
